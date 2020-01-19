@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service_Project", "Service_Project\Service_Project.csproj", "{2A89D599-0CD4-410A-9A49-16EBEE4C534A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA407C6E-153E-40E3-92B4-A1ACFD7093DA} = {CA407C6E-153E-40E3-92B4-A1ACFD7093DA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{CA407C6E-153E-40E3-92B4-A1ACFD7093DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A89D599-0CD4-410A-9A49-16EBEE4C534A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A89D599-0CD4-410A-9A49-16EBEE4C534A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A89D599-0CD4-410A-9A49-16EBEE4C534A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A89D599-0CD4-410A-9A49-16EBEE4C534A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA407C6E-153E-40E3-92B4-A1ACFD7093DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA407C6E-153E-40E3-92B4-A1ACFD7093DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA407C6E-153E-40E3-92B4-A1ACFD7093DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA407C6E-153E-40E3-92B4-A1ACFD7093DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {653F2923-CB75-48B4-8FEF-74F69407AB31}
+	EndGlobalSection
+EndGlobal
